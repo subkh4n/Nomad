@@ -1,0 +1,437 @@
+// body
+body {
+  background-color: white;
+  font-family: 'Assistant', sans-serif;
+  color: #071c4D;
+}
+
+// navbar
+.navbar-brand {
+  img {
+    max-height: 40px;
+  }
+
+}
+
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: #071c4D;
+
+      &.active {
+        font-weight: bold;
+        color: #071c4D !important;
+      }
+    }
+  }
+}
+
+// button
+.btn-navbar-right {
+  margin-top: -8px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #071c4D;
+  color: white;
+
+  &:hover {
+    background-color: #1452f0;
+    color: white;
+  }
+}
+
+// header
+header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background-image: url(../images/Pantai.jpg);
+  background-size: cover;
+
+  h1,
+  p {
+    color: white;
+  }
+
+  h1 {
+    font-family: "playfair display", serif;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  .btn-get-started {
+    background-color: orangered;
+    color: white;
+
+    &:hover {
+      background-color: orange;
+      color: white;
+    }
+  }
+}
+
+// main
+// statistik
+.section-stats {
+  margin-top: -50px;
+
+  .stats-detail {
+    padding-top: 15px;
+    background-color: white;
+    padding-left: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+
+// popular heading
+.section-popular {
+  min-height: 540px;
+  background-color: #071c4D;
+  margin-top: -50px;
+  margin-bottom: -230px;
+
+  .section-popular-heading {
+    margin-top: 150px;
+  }
+
+  h2,
+  p {
+    color: white;
+  }
+
+  h2 {
+    font-family: "playfair display";
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  P {
+    font-size: 18px;
+  }
+
+}
+
+// popular content
+.section-popular-content {
+  .section-popular-travel {
+    .card-travel {
+      min-height: 380px;
+      background-color: #ddd;
+      color: white;
+      padding: 30px;
+      background-size: cover;
+      background-position: 78%;
+      margin-bottom: 20px;
+    }
+
+    .travel-country {
+      font-size: 18px;
+      color: white;
+    }
+
+    .travel-location {
+      font-size: 26px;
+      color: white;
+    }
+
+    .travel-button {
+      .btn-travel-details {
+        background-color: orangered;
+        color: white;
+
+        &:hover {
+          background-color: orange;
+          color: white;
+        }
+
+      }
+    }
+  }
+}
+
+.section-network {
+  background-color: whitesmoke;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+
+  h2 {
+    font-family: 'playfair display', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.section-testimonial-heading {
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+  padding-top: 50px;
+  min-height: 560px;
+
+  h2 {
+    font-family: 'playfair display', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.section-testimonial-content {
+  margin-top: -380px;
+  padding-top: 50px;
+
+  .card-testimonial {
+    padding: 40px 20px 10px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+  }
+
+  .testimonial-content {
+    min-height: 380px;
+  }
+
+  h3 {
+    font-size: 22px;
+
+  }
+
+  .testimonial {
+    font-weight: 200;
+    font-size: 26px;
+    color: #6e6e6e;
+    min-height: 160px;
+  }
+
+  .trip-to {
+    font-weight: normal;
+    font-size: 22px;
+    color: #6e6e6e;
+  }
+
+  hr {
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+
+  .btn-get-started {
+    background-color: orangered;
+    color: white;
+
+    &:hover {
+      background-color: orange;
+      color: white;
+    }
+  }
+
+  .btn-need-help {
+    background-color: darkkhaki;
+    color: blanchedalmond;
+
+    &:hover {
+      background-color: greenyellow;
+      color: white;
+    }
+  }
+}
+
+.section-footer {
+  a {
+    color: #071c4D;
+  }
+
+}
+
+// halaman details.html
+.section-detail-header {
+  min-height: 310px;
+  background: #E4E6EB;
+  margin-top: -70px;
+}
+
+.section-detail-content {
+  margin-top: -210px;
+  min-height: 100vh;
+
+  .breadcrumb {
+    background: transparent;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #0e172b;
+    }
+  }
+
+
+
+  .card-detail {
+    padding: 30px;
+    border-radius: 11px;
+
+    h1 {
+      font-size: 26px;
+    }
+
+    h2 {
+      font-size: 18px;
+
+    }
+
+    p {
+      font-size: 20px;
+      color: #B1B1B1;
+    }
+
+    .trip-information {
+      th {
+        font-size: 18px;
+        font-weight: 300;
+        color: #071c4D;
+      }
+
+      td {
+        font-size: 18px;
+        font-weight: 300;
+        color: #B1B1B1;
+      }
+    }
+
+    h3 {
+      font-weight: 600;
+      font-size: 14px;
+      color: #071c4D;
+    }
+
+    .disclaimer {
+      font-weight: 300;
+      font-size: 14px;
+      color: #B1B1B1;
+    }
+
+    .gj-datepicker {
+      datepicker {
+        border-right: 0;
+      }
+
+      input-group-append {
+        .btn {
+          padding-right: 30px;
+        }
+
+      }
+    }
+
+    .btn-add-now {
+      background-color: #071c4D;
+      color: #fff;
+
+      &:hover {
+        background-color: #084FF3;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.feature {
+  margin-top: 20px;
+
+  h3 {
+    font-size: 13px;
+    color: #071c4D;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .description {
+    margin-left: 10px;
+    overflow: hidden;
+    float: left;
+  }
+
+  .feature-image {
+    width: 50px;
+    height: 50px;
+    float: left;
+  }
+}
+
+.gallery {
+  .xzoom-container {
+    display: block;
+
+    .xzoom {
+      margin-bottom: 10px;
+      width: 100%;
+      box-shadow: none;
+    }
+
+    .xactive {
+      border: 4px solid #1ABC9C;
+      box-shadow: none;
+    }
+  }
+}
+
+
+.join-container {
+  margin-top: -16px;
+
+  .btn-join-now {
+    background-color: orange;
+    color: whitesmoke;
+    border-radius: 0%;
+
+    &:hover {
+      background-color: orangered;
+      color: powderblue;
+    }
+  }
+}
+
+.member {
+  .member-img {
+    width: 40px;
+    height: 40px;
+
+  }
+}
